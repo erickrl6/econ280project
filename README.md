@@ -3,9 +3,7 @@ contributors:
   - Erick Rosas López
 ---
 
-# Template README and Guidance
-
-> INSTRUCTIONS: This README suggests structure and content that have been approved by various journals, see [Endorsers](Endorsers.md). It is available as [Markdown/txt](https://github.com/social-science-data-editors/template_README/blob/master/template-README.md), [Word](templates/README.docx), [LaTeX](templates/README.tex), and [PDF](templates/README.pdf). In practice, there are many variations and complications, and authors should feel free to adapt to their needs. All instructions can (should) be removed from the final README (in Markdown, remove lines starting with `> INSTRUCTIONS`). Please ensure that a PDF is submitted in addition to the chosen native format. Please ensure that the README is called "README" plus the appropriate suffix, not some non-standard name. This helps replicators immediately locate the necessary document.
+# README
 
 ## Overview
 
@@ -42,13 +40,13 @@ The data are licensed under a Creative Commons/CC-BY-NC license. See LICENSE.txt
 
 | Data file | Source | Notes    |Provided |
 |-----------|--------|----------|---------|
-| `data/raw/lbd.dta` | Hanna, et al. (2017b) | As per Terms of Use | Yes |
+| `data/analysis/v0_v1_live_predicted_appended_regression_r.dta` | Hanna, et al. (2017b) | As per Terms of Use | Yes |
 
 ## Computational requirements
 
 ### Software Requirements
 
-- [ ] The replication package contains one or more programs to install all dependencies and set up the necessary directory structure. [HIGHLY RECOMMENDED]
+- [ ] The replication package contains one or more programs to install all dependencies and set up the necessary directory structure. 
 
 - R 4.3.3
   - `foreign` (0.8.87)
@@ -122,4 +120,6 @@ The provided code reproduces:
 Hanna, R., Kreindler, G., & Olken, B. A. (2017a). Citywide Effects of High-Occupancy Vehicle Restrictions: Evidence from the Elimination of ‘3-in-1’in Jakarta (No. w23295). National Bureau of Economic Research.
 
 Hanna, Rema; Kreindler, Gabriel; Olken, Benjamin A. (2017b), "Replication Data for: "Citywide Effects of High-Occupancy Vehicle Restrictions: Evidence from “3-In-1” in Jakarta"", https://doi.org/10.7910/DVN/48U7GP, Harvard Dataverse, V1
+
+
 ---
